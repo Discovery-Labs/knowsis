@@ -1,0 +1,19 @@
+name: "Gitbook Action Build"
+on:
+  push:
+    branches:
+      - main # trigger branch
+  pull_request:
+    branches:
+      - main # trigger branch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout action
+        uses: actions/checkout@v2
+      - name: Knowsis Upload Course Action
+        uses: ./.github/actions/knowsis-upload-action
+        env:
+          WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
+          FILES_TO_IGNORE: "node_modules/**, .git/**, .github/**, index.js, nodemon.json, package-lock.json, package.json"
