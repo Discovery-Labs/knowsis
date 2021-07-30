@@ -13,7 +13,7 @@ jobs:
       - name: Checkout action
         uses: actions/checkout@v2
       - name: Knowsis Upload Course Action
-        uses: ./.github/actions/knowsis-upload-action
+        uses: ./.github/actions/knowsis-upload-course-actions
         env:
           WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
           FILES_TO_IGNORE: "node_modules/**, .git/**, .github/**, index.js, nodemon.json, package-lock.json, package.json"
