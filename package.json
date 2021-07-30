@@ -1,0 +1,25 @@
+{
+  "name": "knowsis",
+  "version": "1.0.0",
+  "description": "## From zero to hero",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Discovery-Labs/knowsis.git"
+  },
+  "keywords": [],
+  "author": "Huxwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Discovery-Labs/knowsis/issues"
+  },
+  "homepage": "https://github.com/Discovery-Labs/knowsis#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "web3.storage": "^3.1.0"
+  }
+}
