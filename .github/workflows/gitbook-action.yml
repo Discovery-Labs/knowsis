@@ -17,3 +17,4 @@ jobs:
         env:
           WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
           FILES_TO_IGNORE: "node_modules/**, .git/**, .github/**, index.js, nodemon.json, package-lock.json, package.json"
+
