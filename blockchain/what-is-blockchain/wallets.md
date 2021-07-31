@@ -1,2 +1,2 @@
-# Wallets
+# Smart contracts & ETH
 

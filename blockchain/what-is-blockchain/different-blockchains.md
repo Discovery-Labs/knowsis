@@ -1,2 +1,2 @@
-# Different blockchains
+# Decentralization
 

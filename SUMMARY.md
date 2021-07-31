@@ -2,15 +2,23 @@
 
 * [Discovery](README.md)
 
-## Blockchain
+## Discovery Path Branch'ed <a id="blockchain"></a>
 
-* [What is blockchain ?](blockchain/what-is-blockchain/README.md)
-  * [Decentralisation](blockchain/what-is-blockchain/decentralisation.md)
-  * [Different blockchains](blockchain/what-is-blockchain/different-blockchains.md)
-  * [Smart contracts](blockchain/what-is-blockchain/smart-contracts.md)
-  * [Wallets](blockchain/what-is-blockchain/wallets.md)
-  * [Tokens](blockchain/what-is-blockchain/tokens.md)
-  * [Cryptography](blockchain/what-is-blockchain/cryptography.md)
+* [Overview](blockchain/overview/README.md)
+  * [The Discovery Path Tree](blockchain/overview/the-discovery-path-tree.md)
+* [Basics Of Blockchain](blockchain/what-is-blockchain/README.md)
+  * [What is blockchain?](blockchain/what-is-blockchain/decentralisation/README.md)
+    * [Resources](blockchain/what-is-blockchain/decentralisation/resources.md)
+  * [Decentralization](blockchain/what-is-blockchain/different-blockchains.md)
+  * [Distributed Ledger & Bitcoin](blockchain/what-is-blockchain/smart-contracts.md)
+  * [Smart contracts & ETH](blockchain/what-is-blockchain/wallets.md)
+  * [Wallets](blockchain/what-is-blockchain/wallets-1.md)
+  * [Scaling Solutions](blockchain/what-is-blockchain/scaling-solutions.md)
+  * [Defi](blockchain/what-is-blockchain/tokens.md)
+  * [NFTs](blockchain/what-is-blockchain/cryptography/README.md)
+    * [Resources](blockchain/what-is-blockchain/cryptography/resources.md)
+* [Introduction to Discovery Network](blockchain/introduction-to-discovery-network.md)
+* [Discovery Paths and Features](blockchain/discovery-paths-and-features.md)
 
 ## Projects
 

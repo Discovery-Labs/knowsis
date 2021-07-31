@@ -1,2 +1,2 @@
-# Smart contracts
+# Distributed Ledger & Bitcoin
 
