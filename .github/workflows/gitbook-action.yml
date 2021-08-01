@@ -17,3 +17,6 @@ jobs:
         env:
           WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
           FILES_TO_IGNORE: "node_modules/**, .git/**, .github/**, services/**, ipfs/**, index.js,  nodemon.json, package-lock.json, package.json"
+          KNOWSIS_GITHUB_TOKEN: ${{ secrets.KNOWSIS_GITHUB_TOKEN }}
+          CERAMIC_NODE_API_URL: ${{ secrets.CERAMIC_NODE_API_URL }}
+          CERAMIC_SEED: ${{ secrets.KNOWSIS_CERAMIC_SEED }}

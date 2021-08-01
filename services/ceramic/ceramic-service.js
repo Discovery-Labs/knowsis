@@ -12,14 +12,8 @@ import { randomBytes } from '@stablelib/random'
 
 export async function makeCeramicClient(){
   // The seed must be provided as an environment variable
-  // const seed = fromString(process.env.CERAMIC_SEED, 'base16')
-  const seed = [
-    46, 199,   8,  28, 243, 254, 156,
-   129,  52, 220, 108, 191, 160,  63,
-   146, 212, 170, 247, 179, 208,  27,
-   139, 238, 110, 169, 101, 196, 194,
-    50,  25, 123, 199
-  ];
+  // TODO: make sure this works
+  const seed = fromString(secrets.CERAMIC_SEED, 'base16')
   console.log(seed);
   // Connect to the local Ceramic node
   const ceramic = new CeramicClient.default(process.env.CERAMIC_API_URL)
