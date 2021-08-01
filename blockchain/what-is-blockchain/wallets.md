@@ -1,2 +1,2 @@
-# Smart contracts & ETH
+# Why Decentralization?
 

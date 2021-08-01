@@ -1,2 +1,2 @@
-# Defi
+# Smart Contracts
 

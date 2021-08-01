@@ -1,2 +1,2 @@
-# Distributed Ledger & Bitcoin
+# Why Use the Blockchain?
 

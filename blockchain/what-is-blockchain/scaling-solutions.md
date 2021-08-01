@@ -1,2 +1,2 @@
-# Scaling Solutions
+# Ethereum
 
