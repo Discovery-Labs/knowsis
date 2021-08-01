@@ -6,10 +6,6 @@
 
 **Due to these security features, blockchain is not only a viable way to create cryptocurrency, but also many other applications that need efficiency, immutability, and credible neutrality.** 
 
-
-
-
-
 {% embed url="https://www.youtube.com/watch?v=yubzJw0uiE4" %}
 
 
