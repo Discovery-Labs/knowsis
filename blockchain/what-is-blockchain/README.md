@@ -1,12 +1,10 @@
 # Basics Of Blockchain
 
-## Can I become who I want to be?
+**In this lesson, we hope to introduce the technology, purposes, and benefits of Blockchain and some of the reasons that it can and should be used to replace many of the antiquated systems we use for many different industries today.**  
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
 
-## Have you had a chance to answer the previous question?
+**This lesson will use some common “banking terms” such as ledger, as well as a couple of computer science terms like network. These terms can be used in their same general idea as they would typically be thought of in their original industries, but in the context of a group of people, decentralized and distributed around the world. This lesson will use these terms to help you associate their current understanding of the present system with this new and perhaps previously unimaginable technology.**   
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
 
 

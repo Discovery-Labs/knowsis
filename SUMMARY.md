@@ -15,7 +15,6 @@
   * [Ethereum](blockchain/what-is-blockchain/scaling-solutions.md)
   * [Smart Contracts](blockchain/what-is-blockchain/tokens.md)
   * [Tokens](blockchain/what-is-blockchain/tokens-1.md)
-  * [Untitled](blockchain/what-is-blockchain/untitled.md)
   * [What are people using?](blockchain/what-is-blockchain/cryptography.md)
 * [Resources](blockchain/resources.md)
 * [Introduction to Discovery Network](blockchain/introduction-to-discovery-network.md)
