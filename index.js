@@ -3,10 +3,10 @@ dotenv.config()
 import core from '@actions/core'
 import github from '@actions/github'
 
-import { getCeramicAlias, createCeramicDocument, readCeramicRecord } from './services/ceramic/ceramic-service.js'
-import { uploadFilesToWeb3Storage } from './services/web3-storage/web3-storage-service.js'
-import { CourseSchema } from './services/ceramic/schemas/course-schema.js'
-import { getPullRequest } from './services/github/actions-service.js'
+import { getCeramicAlias, createCeramicDocument, readCeramicRecord } from './src/services/ceramic/ceramic-service.js'
+import { uploadFilesToWeb3Storage } from './src/services/web3-storage/web3-storage-service.js'
+import { CourseSchema } from './src/services/ceramic/schemas/course-schema.js.js'
+import { getPullRequest } from './src/services/github/actions-service.js'
 
 async function main(){
   const { ctx, payload } = await getPullRequest();
