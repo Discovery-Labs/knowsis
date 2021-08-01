@@ -6,8 +6,9 @@ export async function getPullRequest() {
     // The YML workflow will need to set myToken with the GitHub Secret Token
     // myToken: ${{ secrets.GITHUB_TOKEN }}
     // https://help.github.com/en/actions/automating-your-workflow-with-github-actions/authenticating-with-the-github_token#about-the-github_token-secret
-    const payload = github.context.payload
-    console.log({ payload, ctx: github.context });
+    const payload = github.context.payload;
+    const authors = github.context.payload.commits.map(commit => commit.author)
+    console.log({ payload, ctx: github.context, authors });
     // const githubToken = core.getInput('GITHUB_TOKEN');
 
     // const octokit = github.getOctokit(githubToken)
@@ -25,5 +26,5 @@ export async function getPullRequest() {
     // });
     // console.log(pullRequest);
 
-    return { ctx, payload }
+    return github.context;
 }

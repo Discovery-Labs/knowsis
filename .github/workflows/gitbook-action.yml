@@ -13,10 +13,15 @@ jobs:
       - name: Checkout action
         uses: actions/checkout@v2
       - name: Knowsis Upload Course Action
-        uses: ./.github/actions/knowsis-upload-course-actions
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          # cache: 'npm'
         env:
           WEB3STORAGE_TOKEN: ${{ secrets.WEB3STORAGE_TOKEN }}
           FILES_TO_IGNORE: "node_modules/**, .git/**, .github/**, src/**, ipfs/**, index.js,  nodemon.json, package-lock.json, package.json"
           KNOWSIS_GITHUB_TOKEN: ${{ secrets.KNOWSIS_GITHUB_TOKEN }}
           CERAMIC_NODE_API_URL: ${{ secrets.CERAMIC_NODE_API_URL }}
           CERAMIC_SEED: ${{ secrets.KNOWSIS_CERAMIC_SEED }}
+      - run: npm install
+      - run: node index.js
