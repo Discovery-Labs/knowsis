@@ -1,13 +1,13 @@
-const { Web3Storage, File, getFilesFromPath } = require('web3.storage');
+import { Web3Storage, File, getFilesFromPath } from 'web3.storage';
 
 function getAccessToken() {
   return process.env.WEB3STORAGE_TOKEN
 }
-function makeStorageClient() {
+export function makeStorageClient() {
   return new Web3Storage({ token: getAccessToken() })
 }
 
-async function storeWithProgress(files) {
+export async function storeWithProgress(files) {
   // show the root cid as soon as it's ready
   const onRootCidReady = cid => {
     console.log('uploading files with cid:', cid)
@@ -31,14 +31,14 @@ async function storeWithProgress(files) {
   return client.put(files, { onRootCidReady, onChunkStored })
 }
 
-async function getFiles(path) {
+export async function getFiles(path) {
   const filesToIgnore = process.env.FILES_TO_IGNORE.split(',').map(fileToIgnore => fileToIgnore.trim())
   return getFilesFromPath(path, {
     ignore: filesToIgnore,
   })
 }
 
-async function uploadFilesToWeb3Storage(){
+export async function uploadFilesToWeb3Storage(){
   // TODO: make sure that the github account of the contributor is linked with and ethereum address
   const client = makeStorageClient();
   const discoveryGitBookFiles = await getFiles(process.cwd())
@@ -48,10 +48,4 @@ async function uploadFilesToWeb3Storage(){
   const res = await client.get(rootCid) // Web3Response
   const files = await res.files() // Web3File[]
   return { rootCid, files };
-}
-
-module.exports = {
-  storeWithProgress,
-  getFiles,
-  uploadFilesToWeb3Storage
 }

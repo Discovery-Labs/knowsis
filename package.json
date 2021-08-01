@@ -17,10 +17,21 @@
   "bugs": {
     "url": "https://github.com/Discovery-Labs/knowsis/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/Discovery-Labs/knowsis#readme",
   "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@ceramicnetwork/3id-did-resolver": "^1.2.7",
     "@ceramicnetwork/http-client": "^1.0.7",
+    "@ceramicstudio/idx": "^0.12.1",
+    "@ceramicstudio/idx-tools": "^0.11.0",
+    "@stablelib/random": "^1.0.1",
+    "dids": "^2.4.0",
     "dotenv": "^10.0.0",
+    "key-did-provider-ed25519": "^1.1.0",
+    "key-did-resolver": "^1.2.1",
+    "uint8arrays": "^2.1.8",
     "web3.storage": "^3.1.0"
   }
 }
