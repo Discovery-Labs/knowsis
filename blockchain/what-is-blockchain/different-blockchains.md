@@ -22,13 +22,13 @@
  **Each block has its own hash, and each block’s hash includes the hash from the previous block, data for the current block, as well as a “nonce” that is simply a unique number for each particular block. “Nonce” is an abbreviation for “number only used once” and it is simply a sequential number that is hashed into the block’s data when it is mined.Due to these hashing algorithms, as well as the implementation of a consensus mechanism such as Proof of Work, it becomes very expensive to attempt to steal or exploit a vulnerability in a blockchain network.**   
 
 
-\*\*\*\*[  
-**https://www.youtube.com/watch?v=QUG-T3E05P4**  
-](
+{% embed url="https://www.youtube.com/watch?v=QUG-T3E05P4" %}
+
+
+
+#### [ ****](
 https://www.youtube.com/watch?v=QUG-T3E05P4
 )  
-  
-
 
 
 
