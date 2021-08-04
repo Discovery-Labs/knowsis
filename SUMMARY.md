@@ -22,7 +22,9 @@
   * [Untitled](blockchain/non-fungible-tokens/untitled-1.md)
 * [Resources](blockchain/resources.md)
 * [Introduction to Discovery Network](blockchain/introduction-to-discovery-network.md)
-* [Discovery Paths and Features](blockchain/discovery-paths-and-features.md)
+* [Discovery Paths and Features](blockchain/discovery-paths-and-features/README.md)
+  * [Polygon De-crypted](blockchain/discovery-paths-and-features/polygon-de-crypted/README.md)
+    * [Deploying on Polygon](blockchain/discovery-paths-and-features/polygon-de-crypted/deploying-on-polygon.md)
 
 ## Projects
 
