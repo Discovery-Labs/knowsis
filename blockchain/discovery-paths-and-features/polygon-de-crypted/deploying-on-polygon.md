@@ -1,2 +1,0 @@
-# Deploying on Polygon
-

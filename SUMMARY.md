@@ -24,7 +24,8 @@
 * [Introduction to Discovery Network](blockchain/introduction-to-discovery-network.md)
 * [Discovery Paths and Features](blockchain/discovery-paths-and-features/README.md)
   * [Polygon De-crypted](blockchain/discovery-paths-and-features/polygon-de-crypted/README.md)
-    * [Deploying on Polygon](blockchain/discovery-paths-and-features/polygon-de-crypted/deploying-on-polygon.md)
+    * [Deploying on Polygon](blockchain/discovery-paths-and-features/polygon-de-crypted/deploying-on-polygon/README.md)
+      * [Deploying using Remix](blockchain/discovery-paths-and-features/polygon-de-crypted/deploying-on-polygon/deploying-using-remix.md)
 
 ## Projects
 
