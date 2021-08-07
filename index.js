@@ -9,9 +9,10 @@ import { CourseSchema } from './src/services/ceramic/schemas/course-schema.js'
 import { getPullRequest } from './src/services/github/actions-service.js'
 
 async function main(){
-  const { ctx, payload } = await getPullRequest();
+  // const { ctx, payload } = await getPullRequest();
   // const { files, rootCid } = await uploadFilesToWeb3Storage()
-  // // const projects = await getCeramicAlias('projects')
+  const cali = await readCeramicRecord('did:3:kjzl6cwe1jw14943z6hvbzjkod828dq9qh6ga2hegvoznaak81690a0gaf4ygwo')
+  console.log(cali);
   // console.log({  files, rootCid })
   // const mainRecord = {
   //   courseId: rootCid,
