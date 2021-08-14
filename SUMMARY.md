@@ -38,6 +38,8 @@
 ## Projects
 
 * [Ethereum](projects/ethereum.md)
+* [Chainlink](projects/chainlink/README.md)
+  * [Keepers](projects/chainlink/keepers.md)
 * [Bitcoin](projects/bitcoin.md)
 * [Solana](projects/solana.md)
 * [Avalanche](projects/avalanche.md)
