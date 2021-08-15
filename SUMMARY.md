@@ -31,8 +31,6 @@
   * [Decrypt'ed](projects/polygon/decrypted/README.md)
     * [Deploying on Polygon](projects/polygon/decrypted/deploying-on-polygon/README.md)
       * [Deploying using Remix](projects/polygon/decrypted/deploying-on-polygon/deploying-using-remix.md)
-      * [Untitled](projects/polygon/decrypted/deploying-on-polygon/untitled-1.md)
-      * [Untitled](projects/polygon/decrypted/deploying-on-polygon/untitled.md)
   * [Branch'ed](projects/polygon/branched/README.md)
     * [Popular Dapps on Polygon](projects/polygon/branched/popular-dapps-on-polygon/README.md)
       * [Aave](projects/polygon/branched/popular-dapps-on-polygon/aave.md)
