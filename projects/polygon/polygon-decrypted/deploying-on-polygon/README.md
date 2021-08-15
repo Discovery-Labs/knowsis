@@ -4,6 +4,8 @@ This lesson will take you through the few different options you have when deploy
 
 There are many different technologies in play with Polygon, but they all are centered around the idea of "security as a service" and they do all secure back at the Layer 1 Ethereum Mainnet. This is part of what makes Polygon so useful, as developers can scale their decentralized application in a much more cost-effective way than they ever could before. Now, let's learn how you can do this too.
 
+
+
 {% file src="../../../../.gitbook/assets/polygon\_polygon-decrypted\_deploying-on-polygon.png" caption="Deploying on polygon - NFT quest reward" %}
 
 
