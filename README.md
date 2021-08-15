@@ -13,7 +13,7 @@ Becoming a super hero is a fairly straight forward process:
 
 Once you are strong enough, save the world:
 
-{% page-ref page="blockchain/what-is-blockchain/" %}
+{% page-ref page="discovery-paths/what-is-blockchain/" %}
 
 
 
