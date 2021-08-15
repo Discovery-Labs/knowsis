@@ -11,9 +11,9 @@ Becoming a super hero is a fairly straight forward process:
  Super-powers are granted randomly so please submit an issue if you're not happy with yours.
 {% endhint %}
 
-Once you're strong enough, save the world:
+Once you are strong enough, save the world:
 
-{% page-ref page="blockchain/what-is-blockchain/" %}
+{% page-ref page="discovery-paths/what-is-blockchain/" %}
 
 
 
