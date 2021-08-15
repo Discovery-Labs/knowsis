@@ -1,6 +1,7 @@
 {
   "watch": [
-    "index.js"
+    "index.js",
+    "src/**/*.js"
   ],
   "ext": "js",
   "exec": "node --inspect=0.0.0.0:9229 index.js"
